@@ -11,6 +11,7 @@ It also modifies the slider switch area to say "Auto" with a tooltip explaining 
 Just incase :-)
 
 This only reads the message sender and storage of which emails should use light mode are kept local.
+No account is needed to use this extension.
 
 EDIT: I am a developer, yes really since the late 1980s, using Claude was just faster. I realize it might not create the "best case" code
 this is why I selected a license that allows you to do whatever you want with this.
