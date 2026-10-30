@@ -1,0 +1,41 @@
+{
+  "manifest_version": 2,
+  "name": "Per-Sender Light Mode",
+  "description": "Remembers senders whose messages you switched to light mode and reapplies it automatically.",
+  "version": "0.1.0",
+  "icons": {
+    "32": "icon.svg",
+    "64": "icon.svg"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "per-sender-light-mode@pslm5347423620519",
+      "strict_min_version": "128.0"
+    }
+  },
+  "permissions": [
+    "messagesRead",
+    "storage"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "experiment_apis": {
+    "darkReader": {
+      "schema": "schema.json",
+      "parent": {
+        "scopes": [
+          "addon_parent"
+        ],
+        "paths": [
+          [
+            "darkReader"
+          ]
+        ],
+        "script": "implementation.js"
+      }
+    }
+  }
+}

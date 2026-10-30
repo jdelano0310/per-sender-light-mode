@@ -1,0 +1,46 @@
+[
+  {
+    "namespace": "darkReader",
+    "functions": [
+      {
+        "name": "setEnabled",
+        "type": "function",
+        "async": true,
+        "description": "Sets mail.dark-reader.enabled (only if it differs, to avoid a needless re-render).",
+        "parameters": [
+          { "name": "enabled", "type": "boolean" }
+        ]
+      },
+      {
+        "name": "watchTab",
+        "type": "function",
+        "async": true,
+        "description": "Attaches a change listener to the dark reader toggle in the given tab's message pane (once per pane).",
+        "parameters": [
+          { "name": "tabId", "type": "integer" }
+        ]
+      },
+      {
+        "name": "setNote",
+        "type": "function",
+        "async": true,
+        "description": "Shows or hides the small 'Auto' label next to the toggle in the given tab.",
+        "parameters": [
+          { "name": "tabId", "type": "integer" },
+          { "name": "visible", "type": "boolean" }
+        ]
+      }
+    ],
+    "events": [
+      {
+        "name": "onUserToggled",
+        "type": "function",
+        "description": "Fired when the user clicks the dark reader toggle by hand.",
+        "parameters": [
+          { "name": "tabId", "type": "integer" },
+          { "name": "darkEnabled", "type": "boolean" }
+        ]
+      }
+    ]
+  }
+]
