@@ -10,5 +10,7 @@ you switch to light mode. This will then auto flip to light mode any time an ema
 It also modifies the slider switch area to say "Auto" with a tooltip explaining why / how the email is displayed in light mode.
 Just incase :-)
 
+This only reads the message sender and storage of which emails should use light mode are kept local.
+
 EDIT: I am a developer, yes really since the late 1980s, using Claude was just faster. I realize it might not create the "best case" code
 this is why I selected a license that allows you to do whatever you want with this.
