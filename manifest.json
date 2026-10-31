@@ -10,7 +10,8 @@
   "browser_specific_settings": {
     "gecko": {
       "id": "per-sender-light-mode@pslm5347423620519",
-      "strict_min_version": "128.0"
+      "strict_min_version": "128.0",
+	  "strict_max_version": "170.0"
     }
   },
   "permissions": [
