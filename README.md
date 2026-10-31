@@ -1,5 +1,5 @@
 # per-sender-light-mode
-A thunderbird add-on that remembers which email address you've want to view in light mode (when your system theme is dark mode)
+A thunderbird add-on that remembers which email address you want to view in light mode (when your system theme is dark mode)
 
 I always use dark mode and 99% of the email bodies render well enough, but there are some that don't and I always have to 
 flip the mode switch at the email header (which is system wide and not per sender).
