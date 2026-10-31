@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Per-Sender Light Mode",
   "description": "Remembers senders whose messages you switched to light mode and reapplies it automatically.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "icons": {
     "32": "icon.svg",
     "64": "icon.svg"
@@ -11,7 +11,7 @@
     "gecko": {
       "id": "per-sender-light-mode@pslm5347423620519",
       "strict_min_version": "128.0",
-	  "strict_max_version": "170.0"
+	  "strict_max_version": "160.0"
     }
   },
   "permissions": [
