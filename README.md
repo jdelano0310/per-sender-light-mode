@@ -15,3 +15,6 @@ No account is needed to use this extension.
 
 EDIT: I am a developer, yes really since the late 1980s, using Claude was just faster. I realize it might not create the "best case" code
 this is why I selected a license that allows you to do whatever you want with this.
+
+A short screen recording of setting 1 email sender to always show their emails in light mode
+https://1drv.ms/v/c/7b44a6c9bbfcba41/IQCPX-WKTPv5Qp8vuYGkp4UwATIFm8HWfzCDfuF8aoAj6Dc?e=aVeZVS
